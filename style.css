@@ -144,8 +144,10 @@ body {
     background: #364d64;
 }
 
-.footer .container div:hover {
-    background: #364d64;
+@media (hover: hover) {
+    .footer .container div:hover {
+        background: #364d64;
+    }
 }
 
 .footer .container div:first-child {
