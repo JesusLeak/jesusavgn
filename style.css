@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #0c131d;
+    background: #101a27;
     color: white;
     font-family: sans-serif;
 }
@@ -23,7 +23,7 @@ body {
     overflow: hidden;
     top: 0;
     width: 100%;
-    background: #17212B;
+    background: #1c2835;
     height: 40px;
     margin-bottom: 5px;
 }
@@ -64,7 +64,7 @@ body {
 }
 
 .message {
-    background: #17212B;
+    background: #1c2835;
     padding: 5px 5px 2px 5px;
     border-radius: 10px;
     margin-bottom: 5px;
@@ -115,7 +115,7 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background: #17212B;
+    background: #1c2835;
     height: 34px;
     display: flex;
     justify-items: center;
