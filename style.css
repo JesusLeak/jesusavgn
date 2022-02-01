@@ -15,7 +15,7 @@ body {
 
 .messagesContainer {
     margin-top: 45px;
-    margin-bottom: 40px;
+    margin-bottom: 45px;
 }
 
 .navbar {
@@ -116,50 +116,50 @@ body {
     bottom: 0;
     width: 100%;
     background: #1c2835;
-    height: 34px;
+    height: 40px;
     display: flex;
-    justify-items: center;
+    align-content: center;
 }
 
 .footer .container {
     display: flex;
-    align-content: center;
-    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
 }
 
-.footer span {
-    display: inline-block;
-    height: 30px;
+.footer .container div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
     width: 30px;
-    text-align: center;
-    line-height: 30px;
     cursor: pointer;
-    margin-top: 2px;
     background: #0c131d;
     font-weight: bold;
 }
 
-.footer span.selected {
+.footer .container div.selected {
     background: #364d64;
 }
 
-.footer span:hover {
+.footer .container div:hover {
     background: #364d64;
 }
 
-.footer span:first-child {
+.footer .container div:first-child {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
 
-.footer span:last-child {
+.footer .container div:last-child {
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
 }
 
 .footer .fastPageButton {
-    font-size: 25px;
-    line-height: 27px;
+    font-size: 15px;
 }
 
 .zoomContainer {

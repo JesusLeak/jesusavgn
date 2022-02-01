@@ -124,7 +124,7 @@ function UpdatePagesNavigation() {
     }
 
     for (let p = startPageIndex; p <= endPageIndex; p++) {
-        let pageButton = document.createElement('span');
+        let pageButton = document.createElement('div');
         pageButton.classList.add("pageNumber");
         if (p == page) {
             pageButton.classList.add("selected");
